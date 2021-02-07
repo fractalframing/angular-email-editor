@@ -1,11 +1,16 @@
 {
-  "name": "angular-email-editor",
-  "version": "0.7.1",
+  "author": {
+    "email": "alijesus29@gmail.com",
+    "name": "Ali Padron"
+  },
+  "description": "Updated version of the excellent drag-n-drop email editor by Unlayer as a Angular wrapper component.",
+  "name": "@alipadron/angular-email-editor",
+  "version": "1.0.0",
   "dependencies": {
     "tslib": "^2.0.0"
   },
   "peerDependencies": {
-    "@angular/common": "~8.2.14",
-    "@angular/core": "~8.2.14"
+    "@angular/common": "~11.1.2",
+    "@angular/core": "~11.1.2"
   }
 }
