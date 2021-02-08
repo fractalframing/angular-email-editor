@@ -1,5 +1,5 @@
 {
-  "name": "angular-email-editor",
+  "name": "angular-email-editor-demo",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -8,11 +8,11 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "build-lib": "cp projects/email-editor/package.json projects/email-editor/src/lib/source.json && ng build email-editor --prod",
-    "npm-pack": "cd dist/email-editor && npm pack",
-    "copy-readme": "cp README.md dist/email-editor",
+    "build-lib": "cp projects/@alipadron/angular-email-editor/package.json projects/@alipadron/angular-email-editor/src/lib/source.json && ng build @alipadron/angular-email-editor --prod",
+    "npm-pack": "cd dist/@alipadron/angular-email-editor && npm pack",
+    "copy-readme": "cp README.md dist/@alipadron/angular-email-editor",
     "package": "npm run build-lib && npm run copy-readme && npm run npm-pack",
-    "release": "npm run package && cd dist/email-editor && npm publish --access=public"
+    "release": "npm run package && cd dist/@alipadron/angular-email-editor && npm publish --access=public"
   },
   "private": false,
   "dependencies": {

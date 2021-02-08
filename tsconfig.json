@@ -1,6 +1,12 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
+    "paths": {
+      "@alipadron/angular-email-editor": [
+        "dist/@alipadron/angular-email-editor/@alipadron-angular-email-editor",
+        "dist/@alipadron/angular-email-editor"
+      ]
+    },
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",
     "sourceMap": true,
@@ -17,15 +23,7 @@
       "es2018",
       "dom"
     ],
-    "paths": {
-      "email-editor": [
-        "dist/email-editor"
-      ],
-      "email-editor/*": [
-        "dist/email-editor/*"
-      ]
-    },
-    "resolveJsonModule": true,
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "resolveJsonModule": true
   }
 }

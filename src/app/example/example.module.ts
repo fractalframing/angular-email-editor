@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { ExampleRoutingModule } from './example-routing.module';
-import { EmailEditorModule } from 'email-editor';
+import { AngularEmailEditorModule } from '@alipadron/angular-email-editor';
 
 import { ExampleComponent } from './example.component';
 
@@ -13,7 +13,7 @@ import { ExampleComponent } from './example.component';
   imports: [
     CommonModule,
     ExampleRoutingModule,
-    EmailEditorModule
+    AngularEmailEditorModule
   ]
 })
 export class ExampleModule { }

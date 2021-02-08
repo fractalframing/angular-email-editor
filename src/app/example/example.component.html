@@ -6,9 +6,9 @@
     <button (click)="exportHtml()">Export HTML</button>
   </div>
 
-  <email-editor
+  <angular-email-editor
     [options]="options"
     (loaded)="editorLoaded($event)"
     #editor
-  ></email-editor>
+  ></angular-email-editor>
 </div>

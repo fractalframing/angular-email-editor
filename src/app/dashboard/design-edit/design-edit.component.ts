@@ -1,6 +1,5 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
-import { EmailEditorComponent } from 'email-editor';
-
+import { AngularEmailEditorComponent } from '@alipadron/angular-email-editor';
 @Component({
   selector: 'app-design-edit',
   templateUrl: './design-edit.component.html',
@@ -13,7 +12,7 @@ export class DesignEditComponent implements OnInit {
 
 
   @ViewChild('editor')
-  private emailEditor: EmailEditorComponent;
+  private emailEditor: AngularEmailEditorComponent;
 
   constructor() { }
 

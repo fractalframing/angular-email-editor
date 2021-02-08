@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 
-import { EmailEditorComponent } from './email-editor.component';
+import { AngularEmailEditorComponent } from './angular-email-editor.component';
 
-describe('EmailEditorComponent', () => {
-  let component: EmailEditorComponent;
-  let fixture: ComponentFixture<EmailEditorComponent>;
+describe('AngularEmailEditorComponent', () => {
+  let component: AngularEmailEditorComponent;
+  let fixture: ComponentFixture<AngularEmailEditorComponent>;
 
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
-      declarations: [ EmailEditorComponent ]
+      declarations: [ AngularEmailEditorComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(EmailEditorComponent);
+    fixture = TestBed.createComponent(AngularEmailEditorComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

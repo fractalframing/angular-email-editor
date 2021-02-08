@@ -27,12 +27,12 @@ Next, you'll need to import the Email Editor module in your app's module.
 
 ```ts
 
-import { EmailEditorModule } from 'angular-email-editor';
+import { AngularEmailEditorModule } from '@alipadron/angular-email-editor';
 ...
 
 @NgModule({
   ...
-  imports: [ EmailEditorModule ],
+  imports: [ AngularEmailEditorModule ],
   ...
 });
 ```
@@ -41,7 +41,7 @@ import { EmailEditorModule } from 'angular-email-editor';
 
 ```ts
 import { Component, ViewChild } from '@angular/core';
-import { EmailEditorComponent } from 'angular-email-editor';
+import { AngularEmailEditorComponent } from '@alipadron/angular-email-editor';
 
 @Component({
   selector: 'app-root',
@@ -51,8 +51,8 @@ import { EmailEditorComponent } from 'angular-email-editor';
 export class AppComponent {
   title = 'angular-email-editor';
 
-  @ViewChild(EmailEditorComponent)
-  private emailEditor: EmailEditorComponent;
+  @ViewChild(AngularEmailEditorComponent)
+  private emailEditor: AngularEmailEditorComponent;
   
   editorLoaded() {
     // load the design json here
@@ -70,7 +70,7 @@ export class AppComponent {
 ```html
 <div class="container">
   <button (click)="exportHtml()">Export</button>
-  <email-editor (loaded)="editorLoaded($event)"></email-editor>
+  <angular-email-editor (loaded)="editorLoaded($event)"></angular-email-editor>
 </div>
 ```
 

@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { DashboardRoutingModule } from './dashboard-routing.module';
-import { EmailEditorModule } from 'email-editor';
+import { AngularEmailEditorModule } from '@alipadron/angular-email-editor';
 
 import { DashboardComponent } from './dashboard.component';
 import { DesignListComponent } from './design-list/design-list.component';
@@ -13,7 +13,7 @@ import { DesignEditComponent } from './design-edit/design-edit.component';
   imports: [
     CommonModule,
     DashboardRoutingModule,
-    EmailEditorModule
+    AngularEmailEditorModule
   ]
 })
 export class DashboardModule { }
