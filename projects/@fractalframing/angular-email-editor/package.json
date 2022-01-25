@@ -5,11 +5,11 @@
   },
   "description": "Updated version of the excellent drag-n-drop email editor by Unlayer as a Angular wrapper component.",
   "name": "@fractalframing/angular-email-editor",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "dependencies": {
     "tslib": "^2.0.0"
   },
   "peerDependencies": {
-    "@angular/core": "^11.1.2"
+    "@angular/core": "^12.2.15"
   }
 }
