@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { ExampleRoutingModule } from './example-routing.module';
-import { AngularEmailEditorModule } from '@alipadron/angular-email-editor';
+import { AngularEmailEditorModule } from '@fractalframing/angular-email-editor';
 
 import { ExampleComponent } from './example.component';
 

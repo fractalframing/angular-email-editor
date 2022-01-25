@@ -1,11 +1,11 @@
 {
   "author": {
-    "email": "alijesus29@gmail.com",
-    "name": "Ali Padron"
+    "email": "adan@fractalframing.com",
+    "name": "Fractal Framing"
   },
   "description": "Updated version of the excellent drag-n-drop email editor by Unlayer as a Angular wrapper component.",
-  "name": "@alipadron/angular-email-editor",
-  "version": "1.0.3",
+  "name": "@fractalframing/angular-email-editor",
+  "version": "1.0.0",
   "dependencies": {
     "tslib": "^2.0.0"
   },

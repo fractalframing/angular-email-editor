@@ -1,5 +1,5 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
-import { AngularEmailEditorComponent } from '@alipadron/angular-email-editor';
+import { AngularEmailEditorComponent } from '@fractalframing/angular-email-editor';
 
 import sample from './sample.json';
 

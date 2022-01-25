@@ -2,9 +2,9 @@
   "compileOnSave": false,
   "compilerOptions": {
     "paths": {
-      "@alipadron/angular-email-editor": [
-        "dist/@alipadron/angular-email-editor/@alipadron-angular-email-editor",
-        "dist/@alipadron/angular-email-editor"
+      "@fractalframing/angular-email-editor": [
+        "dist/@fractalframing/angular-email-editor/@fractalframing-angular-email-editor",
+        "dist/@fractalframing/angular-email-editor"
       ]
     },
     "baseUrl": "./",

@@ -16,7 +16,7 @@ Check out the live demo here: https://angular-email-editor-demo.netlify.com/ ([S
 The easiest way to use Angular Email Editor is to install it from Npm or Yarn and include it in your own Angular build process.
 
 ```
-npm install @alipadron/angular-email-editor --save
+npm install @fractalframing/angular-email-editor --save
 ```
 
 ## Usage
@@ -27,7 +27,7 @@ Next, you'll need to import the Email Editor module in your app's module.
 
 ```ts
 
-import { AngularEmailEditorModule } from '@alipadron/angular-email-editor';
+import { AngularEmailEditorModule } from '@fractalframing/angular-email-editor';
 ...
 
 @NgModule({
@@ -41,7 +41,7 @@ import { AngularEmailEditorModule } from '@alipadron/angular-email-editor';
 
 ```ts
 import { Component, ViewChild } from '@angular/core';
-import { AngularEmailEditorComponent } from '@alipadron/angular-email-editor';
+import { AngularEmailEditorComponent } from '@fractalframing/angular-email-editor';
 
 @Component({
   selector: 'app-root',

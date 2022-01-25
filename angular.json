@@ -117,38 +117,38 @@
         }
       }
     },
-    "@alipadron/angular-email-editor": {
-      "root": "projects/@alipadron/angular-email-editor",
-      "sourceRoot": "projects/@alipadron/angular-email-editor/src",
+    "@fractalframing/angular-email-editor": {
+      "root": "projects/@fractalframing/angular-email-editor",
+      "sourceRoot": "projects/@fractalframing/angular-email-editor/src",
       "projectType": "library",
       "prefix": "lib",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
-            "tsConfig": "projects/@alipadron/angular-email-editor/tsconfig.lib.json",
-            "project": "projects/@alipadron/angular-email-editor/ng-package.json"
+            "tsConfig": "projects/@fractalframing/angular-email-editor/tsconfig.lib.json",
+            "project": "projects/@fractalframing/angular-email-editor/ng-package.json"
           },
           "configurations": {
             "production": {
-              "tsConfig": "projects/@alipadron/angular-email-editor/tsconfig.lib.prod.json"
+              "tsConfig": "projects/@fractalframing/angular-email-editor/tsconfig.lib.prod.json"
             }
           }
         },
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "main": "projects/@alipadron/angular-email-editor/src/test.ts",
-            "tsConfig": "projects/@alipadron/angular-email-editor/tsconfig.spec.json",
-            "karmaConfig": "projects/@alipadron/angular-email-editor/karma.conf.js"
+            "main": "projects/@fractalframing/angular-email-editor/src/test.ts",
+            "tsConfig": "projects/@fractalframing/angular-email-editor/tsconfig.spec.json",
+            "karmaConfig": "projects/@fractalframing/angular-email-editor/karma.conf.js"
           }
         },
         "lint": {
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
             "tsConfig": [
-              "projects/@alipadron/angular-email-editor/tsconfig.lib.json",
-              "projects/@alipadron/angular-email-editor/tsconfig.spec.json"
+              "projects/@fractalframing/angular-email-editor/tsconfig.lib.json",
+              "projects/@fractalframing/angular-email-editor/tsconfig.spec.json"
             ],
             "exclude": ["**/node_modules/**"]
           }

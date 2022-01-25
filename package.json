@@ -8,11 +8,11 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "build-lib": "ng build @alipadron/angular-email-editor --prod",
-    "npm-pack": "cd dist/@alipadron/angular-email-editor && npm pack",
-    "copy-readme": "cp README.md dist/@alipadron/angular-email-editor",
+    "build-lib": "ng build @fractalframing/angular-email-editor --prod",
+    "npm-pack": "cd dist/@fractalframing/angular-email-editor && npm pack",
+    "copy-readme": "cp README.md dist/@fractalframing/angular-email-editor",
     "package": "npm run build-lib && npm run copy-readme && npm run npm-pack",
-    "release": "npm run package && cd dist/@alipadron/angular-email-editor && npm publish --access=public"
+    "release": "npm run package && cd dist/@fractalframing/angular-email-editor && npm publish --access=public"
   },
   "private": false,
   "dependencies": {
